@@ -1,5 +1,4 @@
 package task2;
-
 public class Amstrong {
 
 	public static void main(String[] args) {
@@ -11,13 +10,11 @@ public class Amstrong {
 			sum=sum+(digit*digit*digit);
 			n=n/10;
 		}
-		if(sum==original) {
-			System.out.println(original + " is a Amstrong number");
+		if(original==sum) {
+			System.out.println(original + " is Amstrong number");
 		}
 		else {
 			System.out.println(original + " is not a Amstrong number");
 		}
-
 	}
-
 }
